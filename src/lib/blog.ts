@@ -1,0 +1,108 @@
+export interface Blog {
+    id: string;
+    title: string;
+    content1: string;
+    content2: string;
+    content3: string;
+    date: string;
+    day:string,
+    image1: string;
+    image2: string;
+    image3: string;
+    button:string;
+   
+  }
+  
+  export const blogs: Blog[] = [
+    {
+      id: '1',
+      title: 'Bill Walsh  NFL coach',
+      content1: 'Walsh believed that leaders should be proactive and forward-thinking, and that they should seek out feedback...',
+      content2:'In the very first chapter of Bill’s book, he discusses an idea that teams and organizations have a conscience. For the 49ers, Bill believed from the receptionist to players like Jerry Rice and Joe Montana everyone should think and act in the same way. No matter your role or title within in the 49ers organization you were held to the same standards. Here is a direct passage from the book.At the heart of Bill Walsh approach is the Standard of  the high requirements that he had for actions and attitudes. These applied not only to the players but to every person within the organisation (he was both Head Coach and General Manager). Everyone knew how they contributed to the aim of the organisation and what what was expected of them.Walsh leadership aim was to produce "a self-sustaining winning organisation" where "everyone is able to execute their responsibilities in all ways at the highest level" (p.229), even under extreme pressure. This was illustrated in the final play of the final game that Bill Walsh ever coached.',
+
+      content3:'When Bill took over the 49ers organization it was one of the worst franchises in sports. Within a few years he took them from the bottom of the NFL into a NFL dynasty (winning 3 super bowls and became of the most legendary coaches of all time). The great thing about his story is that he did the most simple thing from day one on the job. His very first day he set the tone and expectations of how is players were going to act and think. He let everyone know exactly what he expected, and no matter your role or title you were responsible to uphold the standards set forth by Bil.In the Super Bowl XXIII,  San Francisco 49ers were trailing 13-16 when they got possession of the ball on their own 8 yard line with only 3:08 left on the clock. What followed became legendary in NFL history: The 92 yard "Drive" to win the Super Bowl with seconds to spare The Drive" was in many ways a culmination of all that Bill Walsh stood for. It was the product of hours of training, preparation, excellent strategy and meticulous planning and, executed in the cauldron of the final seconds of a Super Bowl. San Francisco went on to win Super Bowl XXIV the following year - evidence, if any were needed, that Bill Walsh had indeed produced "a self-sustaining winning organisation',
+      day:'Sunday',
+      date: '14-12-2024',
+      image1: '/b1.png',
+    
+      image2: '/bill.jpeg',
+      image3:'/bill2.jpeg',
+       button: 'Research'
+    },
+    {
+        id: '2',
+        title: 'Wireframing',
+        content1: 'The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...',
+        content2:'Establish the basic structure of a page Explore aesthetics, information architecture, and function without writing code Reduce trial and error and expense align designers and stakeholders on requirements Focus creative attention on user needs One of the great advantages of wireframing is that it provides an early visual that can be used to review with the client. Users can also review it as an early feedback mechanism for prototype usability tests. Not only are wireframes easier to amend than concept designs, once approved by the client and the users they provide confidence to the designer.From a practical perspective, the wireframes ensure the page content and functionality are positioned correctly based on user and business needs. And as the project moves forward wireframes can be used as a good dialogue between members of the project team to agree on the project vision and scope.',
+content3:'As the wireframes do not include any design, or account for technical implications, it is not always easy for the client to grasp the concept. The designer will also have to translate the wireframes into a design, so communication to support the wireframe is often needed to explain why page elements are positioned as they are. Also, when content is added, it might initially be too much to fit within the wireframe layout, so the designer and copywriter will need to work closely to make this fit Wireframing is a way to design a website service at the structural level. A wireframe is commonly used to layout content and functionality on a page which takes into account user needs and user journeys. Wireframes are used early in the development process to establish the basic structure of a page before visual design and content is added.Wireframes should be used early in a project to get user and client approval on the layout of key pages and the navigation. This will provide the project team, specifically the designers, confidence in moving forward. Wireframes will also save considerable time and money in the testing and amends phase later in the project.',
+
+        day:'Sunday',
+        date: '14-12-2024',
+        image1: '/b2.jpeg',
+      
+        image2: '/wire1.webp',
+        image3: '/wire2.jpg',
+        button: 'Research',
+      },
+      {
+        id: '3',
+        title: 'Youth in politics',
+        content1: 'Tone of the primary aspects of leadership is having a clear vision for where you are going...',
+        content2:'Strong leaders are masters of relationship building. Developing authentic relationships is absolutely crucial to your success as a leader. You’ll constantly work on building trust with your voters.a key component of leadership is mapping out the strategy to make that vision come true. This is a major part of your role as a politician. You’ll set long-term and short-term goals for what you want your government to achieve and determine how you’ll work with the various stakeholders. Every policy you plan or create and every project you place in your constituency is a part of your strategy. Politics also offers you the unique opportunity to build relationships with a diverse group of people, who all bring different backgrounds, experiences, and strengths to the table.outh politics have an extensive history in Europe, as well. Free German Youth was founded in 1946 in the Soviet occupation zone of Germany, and served as the official youth organization of East Germany.In the UK there is a strong youth politics movement, consisting primarily of the British Youth Council, the UK Youth Parliament and the Scottish Youth Parliament. Although they have no direct power, the young people in these organisations have a close working relationship with Members of Parliament and are fairly influential, albeit ineffectual at bringing about direct change or tangible objectives. Many organisations that strive for youth movement are on the rise. A notable organisation is YouthDebates, an online organisation aiming to engage young people into the world of politics.',
+
+
+
+        content3:'In addition to setting a vision, a key component of leadership is mapping out the strategy to make that vision come true. This is a major part of your role as a politician. Between the influence of mainstream media and politicians, youth politics in the United States has been illegitimated and deprioritized[citation needed]. Organizations such as National Youth Rights Association and The Freechild Project continue to advocate and educate for issues that affect young people specifically, while other organizations, including Youth Service America and Advocates for Youth work for issues that affect youth directly.You’ll set long-term and short-term goals for what you want your government to achieve and determine how you’ll work with the various stakeholders. Every policy you plan or create and every project you place in your constituency is a part of your strategy. Although they have no direct power, the young people in these organisations have a close working relationship with Members of Parliament and are fairly influential, albeit ineffectual at bringing about direct change or tangible objectives. Many organisations that strive for youth movement are on the rise. A notable organisation is YouthDebates, an online organisation aiming to engage young people into the world of politics.',
+        day:'Sunday',
+        date: '14-12-2024',
+        image1: '/b4.jpg',
+        image3: '/you2.png',
+        image2: '/you1.jpg',
+        button: 'Research',
+      
+      },
+      {
+        id: '4',
+        title: 'My convocation day',
+        content1: 'In this blogpost I would like to share how I celebrated my special day.It was a day to celebrate years of hard work...',
+        content2:'The day began with a mixture of excitement and nervousness and of course dropping my beloved dog Bailey off to the minder for 24 hours; Bailey, needless to say, was less impressed by my graduation! Bailey (and Paws who I lost last year) were my constant companions throughout my PhD journey, providing comfort during stressful times and reminding me to take breaks. On June 14th, I arrived early with my family; being an early bird is how I cope with anxiety, and as much as possible being prepared for all expected and unexpected events. Luckily, there were no unexpected events, and we had plenty of time to catch up with colleagues and share in the excitement of the day before the activities began.As I joined the parade of graduates and we made our way to the auditorium, I felt a great sense of accomplishment. For me, and maybe for many of you, a sense of accomplishment is not easily felt because I have always struggled to be proud of myself and appreciate my effort. Indeed, I find it easier to be self-critical and tend to reflect on what I have not done, minimizing what I have accomplished. But not today!!! Today I could not help but reflect on the countless hours of research, and yes, the moments of self-doubt, but mostly, the support of my loved ones that led me to this point.The ceremony itself was a beautiful blend of tradition and celebration. As tradition in Trinity College Dublin, the ceremony was spoken in Latin, a language that has been a part of the college’s history for centuries. This tradition, while a bit challenging for non-Latin speakers like me, added a unique and nostalgic touch to the ceremony. However, there were QR codes available where I could have got the information in English had I been as efficient as some. Nevertheless, more than the words being said, what made the ceremony beautiful was the people in the building, a community of family friends and colleagues coming together to share this special occasion.',
+        content3:'After the ceremony we gathered for a reception, a time to celebrate with those who had been part of the journey. Friends and colleagues shared their experiences of late-night studies, conference presentations and countless hours of writing and rewriting academic papers. We laughed about the times we struggled to understand complex theories, and we shared our excitement about the future. What we all had in common was the sense today ‘it was all worth it’.As a lifelong learner, I believe that if you stop learning, there’s nothing left to do; graduation day was not an end. Rather, it was the beginning of a continuous drive to learn about anything and everything that matters to me, my family, my community, and society. The PhD journey teaches you how to be a researcher and how to critically analyse information in a reasoned, logical and fair-minded way. As I continue my goal to develop as a researcher and critical thinker, I carry with me the lessons learned, the friendships forged, and the mistakes made. I am proud of having accomplished something truly significant.And if I were to select one thing that helped me make it this far, I would say the people in my life (1) my family, (2) my friends, (3) my Trinity community and (4) my dogs.',
+        day:'Sunday',
+        date: '14-12-2024',
+        image1: '/b3.jpg',
+        image2: '/convo.jpg',
+        image3: '/con2.webp',
+        button: 'Research',
+      },
+      {
+        id: '5',
+        title: 'The University of Chicago',
+        content1: '  Acceptance rate 5.4% ,University of Chicago has an acceptance rate of 5%. Half the applicants admitted... ',
+        content2:'University of Chicago has an acceptance rate of 5%. Half the applicants admitted to University of Chicago who submitted test scores have an SAT score between 1510 and 1570 or an ACT score of 34 and 35. However, one quarter of admitted applicants achieved scores above these ranges and one quarter scored below these ranges.DePaul University is a private institution that was founded in 1898. It has a total undergraduate enrollment of 14,374 (fall 2023), and the campus size is 41 acres. It utilizes a quarter-based academic calendar. DePaul Universitys ranking in the 2025 edition of Best Colleges is National Universities. Its tuition and fees are $45,999.It is the largest Roman Catholic university in the United States. DePaul was founded as St. Vincents College in 1898 by the Vincentian Fathers. It was renamed and chartered as a university in 1907. Women were admitted beginning in 1911. Total enrollment exceeds 25,00.DePaul University offers some 275 undergraduate and graduate degree programs in business; communication; education; computing and digital media; music; science and health; theatre; and liberal arts and social sciences. It also operates a college of law and the School for New Learning, a continuing education program. Doctorates are awarded in education, psychology, philosophy, computer and information sciences, and law. DePaul has several campuses throughout Chicago and its suburbs. First-year students must take a course giving them an in-depth familiarity with the city of Chicago. Important facilities include the Merle Reskin Theatre, the International Human Rights Law Institute, the Monsignor John J. Egan Urban Center, and the DePaul Art Museum. Composer Alexander Tcherepnin taught music at DePaul. Prominent graduates',
+        content3:'The application deadline at University of Chicago is Jan. 6.Admissions officials at University of Chicago consider a studenthigh school class rank, when available, is considered and letters of recommendation are considered very important for admissions officials at University of ChicagoUniversity of Illinois, state system of higher education in Illinois, U.S. It consists of three campuses, the main campus in the twin cities Champaign and Urbana and additional campuses in Chicago and Springfield. The universities are teaching and research institutions with land-grant standing and a full range of undergraduate (bachelors degree) and graduate (masters degree) programs, including doctoral and professional degrees.The University of Illinois was one of the land-grant universities created by the Morrill Act of 1862. It was chartered as Illinois Industrial University in 1867; instruction began the following year in Urbana-Champaign. The universitys presence in Chicago began with the founding of the school of pharmacy and the department of medicine in 1894 and 1897, respectively. An undergraduate division of the university opened in Chicago in 1946. Nearly 20 years later the university had a new campus constructed west of downtown Chicago; this campus was known as the University of Illinois at Chicago Circle. In 1982 Chicago Circle merged with the University of Illinois at the Medical Center to form the University of Illinois at Chicago. The Springfield campus began as Sangamon State University in 1969 and became part of the University of Illinois system in 1995. The university library in Urbana-Champaign, with more than 22 million items, is the largest public university collection in the world. From 1923 to 1925 legendary running back Red Grange starred on the Illinois gridiron football team, bringing national attention to the university.The main campus at Urbana-Champaign operates 16 major academic units, including the College of Agricultural, Consumer and Environmental Sciences, the College of Applied Life Studies, the Institute of Labor and Industrial Relations, the College of Engineering, the College of Law, the College of Liberal Arts and Sciences, the Graduate School of Library and Information Science, and the Institute of Aviation, which awards pilot certificates and ratings on behalf of the U.S. Federal Aviation Administration and operates the Aviation Human Factors Division. The campus has some 80 research institutions, which include the National Center for Supercomputing Applications and the Beckman Institute for Advanced Science and Technology. Among its cultural facilities are the Krannert Center for the Performing Arts, the Krannert Art Museum and Kinkead Pavilion, and the William R. and Clarice V. Spurlock Museum (world history and culture). The university also houses a collection of papers of bandmaster John Philip Sousa. Some 20 of the universitys graduates and faculty, including John Bardeen, Jack Kilby, Robert Holley, and Franco Modigliani, have been awarded Nobel Prizes. Total enrollment is nearly 40,000.',
+        day:'Sunday',
+        date: '14-12-2024',
+        image1: '/b5.jpeg',
+        image2: '/depaul.webp',
+        image3: '/d2.jpeg',
+        button: 'Research',
+      },
+      {
+        id: '6',
+        title: 'Collaboration make better',
+        content1: 'The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manage Collaboration can...',
+        content2:'By collaborating with others, you can learn from their expertise, perspectives, and feedback, and expand your creativity, knowledge, and confidence.content3Businesses are finally coming around to the idea. With software eating the world, more organizations are transforming into technology companies. They’re turning their focus to software to help them reach their goals. The result is an explosion of digital products, all in need of thoughtful, user-centric design.We always review internally as a team before presenting our design work to the nonprofits that Constructive works with. We spend a lot of time together discussing things both big and small—evaluating design from a micro and macro level. Talking through a nonprofit’s identity design system adds invaluable expert perspectives to your thinking that usually makes the work better.What I’ve learned is that internal reviews are probably my most valuable time I have when designing. That’s what makes working on a team so great—you’re not on your own! Designers are experts in design language and design thinking, so they tend to know how to give good design feedback. You may not agree with all the feedback, but it’ll all be good food for thought.After Constructive’s design team critiques my work, I’m more confident about what my next steps are. That’s because I’ve gotten feedback that lets me see things I might not see on my own. It’s easy to justify a system’s flaws in your head when you’re the only person who’s seen the design. Having someone whose opinion you respect give you honest feedback is the perfect antidote to falling in love with design ideas that aren’t working.',
+
+
+        content3:'But even the most skilled designers won’t reach their full potential trapped inside a silo. The same goes for developers, marketers, content creators, project managers, and any other team or individual building digital products.When most people think of design prototypes, they think of an interactive for a website design or product design. But a prototype can be almost anything—a piece of paper, a card-sorting exercise, an series of clickable static design comps, or a fully-coded interactive experience that’s used to gain insights during user testing. And prototypes don’t just have to be for things like nonprofit web design. Prototypes are one of many valuable tools for service design, which can be particularly helpful for nonprofits who use inclusive design and lived experience to design programs that are more responsive to the needs of their end beneficiaries.When I’m uncertain about an assumption I have about a design, it helps to do some informal user testing with both designers and non-designers. Testing with members of your design team is a really helpful exercise for thinking through basic user experience patterns because everyone brings a unique understanding of web accessibility standards and how to improve usability.For example, when Constructive was creating The Air Quality Life Index, an environmental data visualization platform and research tool, I conducted several rounds of user testing with our design team early in the design process. We developed static UX design prototypes and tested them internally before conducting user testing with our target audience. As a result, I was able to streamline the interface design for the nonprofit’s data visualization tool early and make the functionality more user-friendly. This, then made our user testing with audiences better and more valuable.',
+
+       
+        day:'Sunday',
+        date: '14-12-2024',
+        image1: '/b6.jpeg',
+        image2: '/colab2.jpeg',
+        image3: '/colab3.jpeg',
+        button: 'Research',
+      },
+     
+      ]
