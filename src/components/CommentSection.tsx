@@ -35,22 +35,22 @@ export default function CommentSection() {
   };
 
   return (
-    <div className="mt-12 bg-gray-900 p-6 rounded-lg">
-      <h2 className="text-2xl font-bold text-white mb-6">Comments</h2>
+    <div className="mt-[90px] bg-gray-900 px-[50px] rounded-lg xxs:mt-[50px] py-[50px] sm:w-[335px] md:w-[450px] lg:w-full">
+      <h2 className="text-2xl font-bold text-white mb-6 mt-11">Comments</h2>
       <form onSubmit={handleSubmit} className="mb-8 space-y-4">
         <Input
           type="text"
           value={authorName}
           onChange={(e) => setAuthorName(e.target.value)}
           placeholder="Your Name (required)"
-          className="w-full bg-gray-800 text-white"
+          className="w-full bg-gray-800 text-white sm:h-[60px] lg:h-[70px]"
           required
         />
         <Textarea
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
           placeholder="Add a comment..."
-          className="w-full bg-gray-800 text-white"
+          className="w-full bg-gray-800 text-white xxs:h-[100px] md:h-[150px]"
           required
         />
         <Button 

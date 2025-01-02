@@ -17,14 +17,16 @@ export default async function Post({ searchParams }: any) {
   return (
     <>
    
-    <main className="container mx-auto px-[140px] md:bg-red-800 sm:bg-green-600 xs:bg-blue-400 xxs:bg-yellow-400 xxs:px-[0px] xxs:pt-[20px]">
+    <main className="
+    container mx-auto md:px-[30px] sm:px-[10px] lg:px-[60px] xl:px-[100px] 2xl:px-[120px]
+      xxs:px-[0px] ">
     <Header/>
-   <div className="flex  gap-[50px] mt-[80px]">
+   <div className="flex  sm:gap-[10px] md:mt-[80px] xxs:mt-[30px] lg:gap-[60px] ">
       <div className="allmaps">
-        <div className="xxs:hidden">
+        <div className=" ">
           {blogs.map((blog) => (
-            <section key={blog.id} className=" text-white w-[370px]">
-              <div className="relative h-[230px] w-[330px] mt-[30px] ml-[10px]">
+            <section key={blog.id} className=" text-white w-[370px] sm:w-[250px] sm:block hidden lg:w-[300px] " >
+              <div className="relative h-[230px] w-[330px] mt-[30px] ml-[10px] sm:w-[250px] sm:h-[250px] sm:ml-[0px] lg:w-[300px] ">
                 <Image
                   src={blog.image1}
                   alt={blog.title}
@@ -37,10 +39,10 @@ export default async function Post({ searchParams }: any) {
                 <h1 className="font-semibold  text-purple-500">
                   {blog.day}, {blog.date}
                 </h1>
-                <h1 className="mt-[10px] text-[20px] w-[250px] text-justify">
+                <h1 className="mt-[10px] text-[20px] w-[250px] text-justify sm:w-[200px]">
                   {blog.title}
                 </h1>
-                <p className="w-[320px] mt-[10px]  text-gray-300 text-justify">
+                <p className="w-[320px] mt-[10px]  text-gray-300  sm:w-[200px] lg:w-[280px] md:ml-[0px] md:pl-[0px]">
                   {blog.content1}
                 </p>
                 <Link
@@ -58,13 +60,16 @@ export default async function Post({ searchParams }: any) {
       </div>
 <div className="secondwork">
       {/* second work */}
-      <div className=" mt-[30px] xxs:w-[200px] xxs:mt-[10px]">
+      <div className=" mt-[30px] xxs:mt-[20px] px-[0px] mx-[0px] xs:w-[400px] sm:w-[335px] md:w-[450px] 
+       lg:w-[570px] xl:w-[730px] 2xl:w-[980px]">
         <h1 className="text-purple-500 text-[20px]">{day} , {date}</h1>
-        <h1 className="text-white text-[50px] mt-[20px] xxs:text-[30px]">{title}</h1>
-        <p className="text-white mt-[8px] text-[20px] leading-[30px] w-[800px] text-justify xxs:w-[200px]">
+        <h1 className="text-white text-[50px] mt-[20px] xxs:text-[25px] xs:text-[30px] md:text-[40px] 2xl:text-[50px]">{title}</h1>
+        <p className="text-white mt-[60px] text-[20px] leading-[30px] w-[800px] text-justify xxs:w-[300px] xs:w-[400px] 
+        sm:w-[335px] md:w-[450px] lg:w-[570px] xl:w-[730px] 2xl:w-[980px]">
           {content1}
           </p>
-        <div className="relative w-[800px] h-[600px] mt-[50px] xxs:w-[200px] xxs:h-[200px]">
+        <div className="relative w-[800px] h-[600px] mt-[90px] xxs:w-[300px] xxs:h-[300px] sm:w-[335px] md:w-[450px] 
+        sm:h-[335px] xs:w-[400px]  lg:w-[570px]  xl:w-[730px]  2xl:w-[980px] md:h-[550px] mb-[100px] ">
         <Image
           src={image2}
           alt={title} 
@@ -72,31 +77,20 @@ export default async function Post({ searchParams }: any) {
           layout="fill"
           className=""
         ></Image></div>
-        <p className="text-white mt-[80px] text-[16px] leading-[30px] w-[800px] text-justify xxs:w-[200px]">
+        <p className="text-white mt-[150px] mb-[100px] text-[16px] leading-[30px] w-[800px] text-justify xxs:w-[300px] xs:w-[400px] sm:w-[335px] xxs:mt-[30px] md:w-[450px] lg:w-[570px] xl:w-[730px] 2xl:w-[980px]">
           {content2}
           </p>
 
 
 
-       {/* <div className="w-[800px] h-[250px] bg-gradient-to-t from-pink-500 to-blue-800  mt-[150px]">
-        <h1 className="text-white text-[25px] px-[50px] py-[50px] w-[500px]">Climb the ladder of success with  SABIHA SULTANA BLOGS</h1>
-        <button></button>
-        <Image
-          src={'/dp2.png'}
-          alt={title} 
-          width={300}
-          height={200}
-          className="absolute right-[150px] top-[1500px]" 
-        ></Image>
-<button className="bg-blue-300 text-black font-bold rounded-full text-[18px] py-[10px] px-[40px] ml-[100px]  hover:scale-105 transition duration-300">Get Started</button>
-       </div> */}
+       
 
 
 
 
 
 
-        <div className="relative w-[800px] h-[600px]  mt-[80px] xxs:w-[200px] xxs:h-[200px]" >
+        <div className="relative w-[800px] h-[600px]  mt-[150px] mb-[100px] xxs:w-[300px] xxs:h-[300px] sm:w-[335px] sm:h[335px] xxs:mt-[20px] xs:w-[400px]  md:w-[450px]  lg:w-[570px]  xl:w-[730px]  2xl:w-[980px] md:h-[550px] " >
         <Image
           src={image3}
           alt={title} 
@@ -104,7 +98,8 @@ export default async function Post({ searchParams }: any) {
           layout="fill"
           className=""
         ></Image></div>
- <p className="text-white mt-[80px] text-[16px] leading-[30px] w-[800px] text-justify xxs:w-[200px]">
+ <p className="text-white mt-[80px] text-[16px] leading-[30px] w-[800px] text-justify xxs:w-[300px] sm:w-[335px] xxs:mt-[20px] xs:w-[400px]
+ md:w-[450px] lg:w-[570px] xl:w-[730px] 2xl:w-[980px]">
           {content3}
  </p>
        
@@ -126,7 +121,7 @@ export default async function Post({ searchParams }: any) {
       {/* second work ends */}
       
       </div>
-      <div className='mt-[150px]'>
+      <div className='mt-[150px] xxs:pt-[50px] xxs:mt-[0px] md:mt-[80px] '>
                 <Footer/></div>
       </main>
     </>

@@ -48,7 +48,7 @@ export default function Footer() {
           </div>  */}
         </div>
       </div>
-      <div className="mt-16 pt-8 border-t text-center md:text-left"> 
+      <div className="mt-16 pt-8 border-t text-center md:text-left md:pt-[0px] md:mt-[80px] lg:pt-[10px] "> 
   <p>Copyright &copy; 2025 All rights reserved | This template is created by SABIHA SULTANA</p> 
 </div>
     </div>
