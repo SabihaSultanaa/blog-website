@@ -32,7 +32,7 @@ function Contact() {
             </div>
            
     </div>
-    <div className='px-[140px]'> <Footer/></div>
+    <div className=''> <Footer/></div>
   
    
     </>
