@@ -17,11 +17,11 @@ export default async function Post({ searchParams }: any) {
   return (
     <>
    
-    <main className="container mx-auto px-[140px] ">
+    <main className="container mx-auto px-[140px] md:bg-red-800 sm:bg-green-600 xs:bg-blue-400 xxs:bg-yellow-400 xxs:px-[0px] xxs:pt-[20px]">
     <Header/>
    <div className="flex  gap-[50px] mt-[80px]">
       <div className="allmaps">
-        <div className="">
+        <div className="xxs:hidden">
           {blogs.map((blog) => (
             <section key={blog.id} className=" text-white w-[370px]">
               <div className="relative h-[230px] w-[330px] mt-[30px] ml-[10px]">
@@ -40,7 +40,7 @@ export default async function Post({ searchParams }: any) {
                 <h1 className="mt-[10px] text-[20px] w-[250px] text-justify">
                   {blog.title}
                 </h1>
-                <p className="w-[320px] mt-[10px]  text-gray-300">
+                <p className="w-[320px] mt-[10px]  text-gray-300 text-justify">
                   {blog.content1}
                 </p>
                 <Link
@@ -53,79 +53,18 @@ export default async function Post({ searchParams }: any) {
               </div>
             </section>
           ))}
-          {/* {sides.map((side) => (
-            <section key={side.id} className=" text-white w-[370px]">
-              <div className="relative h-[230px] w-[330px] mt-[30px] ml-[10px]">
-                <Image
-                  src={side.image}
-                  alt={side.title}
-                  objectFit="cover"
-                  layout="fill"
-                  className="hover:scale-105 transition duration-300"
-                ></Image>
-              </div>
-              <div className="mt-[30px] ml-[20px] w-[250px]">
-                <h1 className="font-semibold  text-purple-500">
-                  {side.day}, {side.date}
-                </h1>
-                <h1 className="mt-[10px] text-[20px] w-[250px] text-justify">
-                  {side.title}
-                </h1>
-                <p className="w-[320px] mt-[10px]  text-gray-300">
-                  {side.content1}
-                </p>
-                <Link
-                  href={`/post/id?content=${side.content1}title=${side.title}&id=${side.id}`}
-                >
-                  <button className="bg-white text-blue-600 rounded-full text-[14px] py-[5px] px-[10px] font-extrabold mt-[18px] mb-[8px] hover:scale-105 transition duration-300">
-                    {side.button}
-                  </button>
-                </Link>
-              </div>
-            </section>
-          ))}
-          {posts.map((post) => (
-            <section key={post.id} className=" text-white w-[370px]">
-              <div className="relative h-[230px] w-[330px] mt-[30px] ml-[10px]">
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  objectFit="cover"
-                  layout="fill"
-                  className="hover:scale-105 transition duration-300"
-                ></Image>
-              </div>
-              <div className="mt-[30px] ml-[20px] w-[250px]">
-                <h1 className="font-semibold  text-purple-500">
-                  {post.day}, {post.date}
-                </h1>
-                <h1 className="mt-[10px] text-[20px] w-[250px] text-justify">
-                  {post.title}
-                </h1>
-                <p className="w-[320px] mt-[10px]  text-gray-300">
-                  {post.content1}
-                </p>
-                <Link
-                  href={`/post/id?content=${post.content1}title=${post.title}&id=${post.id}`}
-                >
-                  <button className="bg-white text-blue-600 rounded-full text-[14px] py-[5px] px-[10px] font-extrabold mt-[18px] mb-[8px] hover:scale-105 transition duration-300">
-                    {post.button}
-                  </button>
-                </Link>
-              </div>
-            </section>
-          ))} */}
+          
         </div>
       </div>
 <div className="secondwork">
       {/* second work */}
-      <div className=" mt-[30px] ">
+      <div className=" mt-[30px] xxs:w-[200px] xxs:mt-[10px]">
         <h1 className="text-purple-500 text-[20px]">{day} , {date}</h1>
-        <h1 className="text-white text-[50px] mt-[20px]">{title}</h1>
-        <p className="text-white mt-[8px] text-[20px] leading-[30px] w-[800px]">
+        <h1 className="text-white text-[50px] mt-[20px] xxs:text-[30px]">{title}</h1>
+        <p className="text-white mt-[8px] text-[20px] leading-[30px] w-[800px] text-justify xxs:w-[200px]">
           {content1}
           </p>
-        <div className="relative w-[800px] h-[600px] mt-[50px]">
+        <div className="relative w-[800px] h-[600px] mt-[50px] xxs:w-[200px] xxs:h-[200px]">
         <Image
           src={image2}
           alt={title} 
@@ -133,7 +72,7 @@ export default async function Post({ searchParams }: any) {
           layout="fill"
           className=""
         ></Image></div>
-        <p className="text-white mt-[80px] text-[16px] leading-[30px] w-[800px]">
+        <p className="text-white mt-[80px] text-[16px] leading-[30px] w-[800px] text-justify xxs:w-[200px]">
           {content2}
           </p>
 
@@ -157,7 +96,7 @@ export default async function Post({ searchParams }: any) {
 
 
 
-        <div className="relative w-[800px] h-[600px]  mt-[80px]">
+        <div className="relative w-[800px] h-[600px]  mt-[80px] xxs:w-[200px] xxs:h-[200px]" >
         <Image
           src={image3}
           alt={title} 
@@ -165,7 +104,7 @@ export default async function Post({ searchParams }: any) {
           layout="fill"
           className=""
         ></Image></div>
- <p className="text-white mt-[80px] text-[16px] leading-[30px] w-[800px]">
+ <p className="text-white mt-[80px] text-[16px] leading-[30px] w-[800px] text-justify xxs:w-[200px]">
           {content3}
  </p>
        

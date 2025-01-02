@@ -48,9 +48,9 @@ export default function Footer() {
           </div>  */}
         </div>
       </div>
-      <div className="mt-16 pt-8 border-t">
-        <p>  Copyright &copy; 2025 All rights reserved | &nbsp;This template is created by SABIHA SULTANA </p>
-      </div>
+      <div className="mt-16 pt-8 border-t text-center md:text-left"> 
+  <p>Copyright &copy; 2025 All rights reserved | This template is created by SABIHA SULTANA</p> 
+</div>
     </div>
   </footer>
   )

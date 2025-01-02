@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body{background-color: #090D1F;}
+body{background-color: #090D1F;
+  width:100%;
+
+  margin:auto;
+
+  }
 .aside{background: linear-gradient(rgb(2, 2, 16),rgb(6, 6, 15));}
 .mainhead{border-bottom: 2px solid white; border-top:  2px solid white; text-align: center;letter-spacing: 20px;}
 @layer base {

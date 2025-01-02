@@ -13,7 +13,7 @@ function Aside() {
             </div>
             <div className=' font-semibold mt-[20px] text-purple-500'>{aside.day} , {aside.date} </div>
             <div className='mt-[20px] text-[27px]'>{aside.title}</div>
-            <div className='mt-[15px] w-[900px] text-gray-300'>{aside.content1}</div>
+            <div className='mt-[15px] w-[900px] text-gray-300 text-justify'>{aside.content1}</div>
             <Link href={`/post/id?content1=${aside.content1}&content2=${aside.content2}&content3=${aside.content3}&title=${aside.title}&day=${aside.day}&date=${aside.date}&image1=${aside.image1}&image2=${aside.image2}&image3=${aside.image3}`} className="text-2xl font-semibold">
               <button className='bg-white text-blue-600 rounded-full text-[16px] px-[30px] py-[5px] font-extrabold mt-[20px] hover:scale-105 transition duration-300'>
                 {aside.button}</button>
